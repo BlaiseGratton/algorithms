@@ -7,6 +7,7 @@ def merge_sort(array):
     split = len(array) / 2
     first_partition = merge_sort(array[0:split])
     second_partition = merge_sort(array[split:])
+
     # merge them in sorted order
     merged_list = []
 
