@@ -26,7 +26,6 @@ def merge_sort(array):
     return merged_list
 
 
-
 def quick_sort(array):
     pass
 
